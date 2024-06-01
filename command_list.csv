@@ -1,0 +1,36 @@
+    1  git clone
+    2  git config --global user.name "MksmMr249"
+    3  git config --global user.email maksym.marushchak.kb.2019@lpnu.ua
+    4  git clone HW_10
+    5  git clone HW_10.main
+    6  git config --list
+    7  git clone https://github.com/MksmMr249/HW_10
+    8  cd HW_10/
+    9  touch text_ignore.txt
+   10  vim .gitignore 
+   11  git status
+   12  vim .gitignore 
+   13  git status
+   14  vim .gitignore 
+   15  git status
+   16  git add
+   17  git add .
+   18  git comit-m "text_ignore.txt added to .ignore"
+   19  git commit-m "text_ignore.txt added to .ignore"
+   20  git commit -m "text_ignore.txt added to .ignore"
+   21  touch main_test.txt
+   22  git add .
+   23  git commit -m "created main_test.txt"
+   24  git branch develop
+   25  git checkout develop
+   26  touch delevop_test.txt
+   27  git add .
+   28  git commit -m "create new branch develop and develop_test.txt"
+   29  vim delevop_test.txt 
+   30  git status
+   31  git add .
+   32  git commit -m "develop_test.txt changed"
+   33  git checkout main
+   34  git merge develop
+   35  git log
+   36  history > command_list.csv
